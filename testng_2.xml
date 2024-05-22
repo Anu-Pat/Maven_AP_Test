@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+     <groups>
+        <run>
+            <include name = "Smoke Testcase"/>
+        </run>
+    </groups>
+    <test verbose="2" preserve-order="true" name="C:/Users/ketan/IdeaProjects/Maven_AP_Test">
+        <classes>
+            <class name="Annotations.BeforeClassAfterClass">
+<!--                <methods>-->
+<!--                    <include name="Testcase1"/>-->
+<!--                    <include name="Testcase2"/>-->
+<!--                    <include name="Testcase3"/>-->
+<!--                </methods>-->
+            </class>
+            <class name="Annotations.BeforeMethodAfterMethod">
+<!--                <methods>-->
+<!--                    <include name="Testcase1"/>-->
+<!--                    <include name="Testcase2"/>-->
+<!--                    <include name="Testcase3"/>-->
+<!--                </methods>-->
+            </class>
+            <class name="Annotations.BeforeClassAfterClass">
+<!--                <methods>-->
+<!--                    <include name="Testcase1"/>-->
+<!--                    <include name="Testcase2"/>-->
+<!--                    <include name="Testcase3"/>-->
+<!--                </methods>-->
+            </class>
+            <class name="Annotations.BeforeMethodAfterMethod">
+<!--                <methods>-->
+<!--                    <include name="annotationMethod1"/>-->
+<!--                    <include name="annotationMethod2"/>-->
+<!--                </methods>-->
+            </class>
+            <class name="Annotations.BeforeMethodAfterMethodExample">
+<!--                <methods>-->
+<!--                    <include name="Testcase1"/>-->
+<!--                    <include name="Testcase2"/>-->
+<!--                    <include name="Testcase3"/>-->
+<!--                </methods>-->
+            </class>
+            <class name="Maven.TestNG">
+<!--                <methods>-->
+<!--                    <include name="basicofTestNG1"/>-->
+<!--                    <include name="basicofTestNG2"/>-->
+<!--                </methods>-->
+            </class>
+            <class name="Priority.DependsOnGroupExample">
+<!--                <methods>-->
+<!--                    <include name="VerifyNewDashboardDemo"/>-->
+<!--                </methods>-->
+            </class>
+            <class name="Priority.DependsOnMethodExample">
+<!--                <methods>-->
+<!--                    <exclude name="VerifyLogin"/>-->
+<!--                    <exclude name="HomePage"/>-->
+<!--                    <exclude name="Dashboard"/>-->
+<!--                </methods>-->
+            </class>
+            <class name="Priority.InvocationCountExample">
+<!--                   <methods>-->
+<!--                           <include name="invocationCountDeo"/>-->
+<!--                       </methods>-->
+                   </class>
+                   <class name="Priority.PriorityExample">
+<!--                       <methods>-->
+<!--                           <include name="PriorityDemo_A"/>-->
+<!--                           <include name="PriorityDemo_X"/>-->
+<!--                           <include name="PriorityDemo_B"/>-->
+<!--                           <include name="PriorityDemo_Y"/>-->
+<!--                           <include name="PriorityDemo_C"/>-->
+<!--                           <include name="PriorityDemo_Z"/>-->
+<!--                       </methods>-->
+                   </class>
+               </classes>
+           </test>
+           </suite>
+
+       <!-- </suite> -->
